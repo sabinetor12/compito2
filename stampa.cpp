@@ -8,13 +8,13 @@ NOME COGNOME DATA
 using namespace std;
 int main()
 {
-  int i=10 ,n;
+  int n;
   cout<<"Quante volte voi stampare la frase? ";
   cin>>n;
-  while (i<n)
+  while (n >0)
   {
    cout<<"Bada come la fuma"<<endl; 
-   i--;
+   n--;
   }
   system("pause");
 }
