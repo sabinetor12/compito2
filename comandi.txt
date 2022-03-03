@@ -1,0 +1,30 @@
+   66  git status
+   67  git commit -m "merge conflict"
+   68  git push origin master
+   69  history 30 > comandi.txt
+   70  git add .
+   71  git commit -m "agginti i comandi"
+   72  git push origin master
+   73  clear
+   74  cd ../Ndoja-compito2
+   75  git init
+   76  git config --globar user.name ndoja
+   77  git config --global user.name ndoja
+   78  git config --global user.email ndoja.flavio@itismeucci.com
+   79  git clone https://github.com/sena-meucci/progettoStampa.git
+   80  nano stampa.cpp
+   81  cd progettoStampa/
+   82  git status
+   83  git add .
+   84  git commit -m"nome inserito"
+   85  git branch bugFix
+   86  git checkout bugFix 
+   87  git status
+   88  git add .
+   89  git commit -m "errore risolto"
+   90  git checkout master
+   91  git branch -d bugFix
+   92  git merge bugFix
+   93  git branch -d bugFix
+   94  git branch 
+   95  history 30 > comandi.txt
